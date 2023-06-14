@@ -1,0 +1,75 @@
+=============== May 16, 2023 (IST) ===============
+16:52:25.725751 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:52:25.729726 db@open opening
+16:52:25.735722 version@stat F·[] S·0B[] Sc·[]
+16:52:25.736955 db@janitor F·2 G·0
+16:52:25.736993 db@open done T·7.230907ms
+16:52:25.766349 db@close closing
+16:52:25.766456 db@close done T·105.14µs
+=============== May 16, 2023 (IST) ===============
+16:54:36.215150 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:54:36.215583 version@stat F·[] S·0B[] Sc·[]
+16:54:36.215630 db@open opening
+16:54:36.215733 journal@recovery F·1
+16:54:36.219187 journal@recovery recovering @1
+16:54:36.222306 memdb@flush created L0@2 N·368 S·40KiB "\x02d\xfc..\x19Ba,v175":"\xfe\x88\xcf..H\xef\xcc,v106"
+16:54:36.225219 version@stat F·[1] S·40KiB[40KiB] Sc·[0.25]
+16:54:36.231764 db@janitor F·3 G·0
+16:54:36.231812 db@open done T·16.164356ms
+=============== May 16, 2023 (IST) ===============
+16:56:31.165893 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:56:31.166137 version@stat F·[1] S·40KiB[40KiB] Sc·[0.25]
+16:56:31.166174 db@open opening
+16:56:31.166250 journal@recovery F·1
+16:56:31.607053 journal@recovery recovering @3
+16:56:31.610205 memdb@flush created L0@5 N·266 S·11KiB "Dat..ion,v370":"unc..own,v375"
+16:56:31.613147 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+16:56:31.618452 db@janitor F·4 G·0
+16:56:31.618505 db@open done T·452.300504ms
+16:57:10.194067 db@close closing
+16:57:10.194183 db@close done T·114.526µs
+=============== May 16, 2023 (IST) ===============
+17:02:12.745021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:02:12.745203 version@stat F·[2] S·51KiB[51KiB] Sc·[0.50]
+17:02:12.745234 db@open opening
+17:02:12.745319 journal@recovery F·1
+17:02:12.748308 journal@recovery recovering @6
+17:02:12.840102 memdb@flush created L0@8 N·32660 S·1MiB "\v\xe2\n..\xcd\x1d\n,v33294":"\xeb\x0e\x92..-\xbe\x7f,v33287"
+17:02:12.843125 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+17:02:12.848456 db@janitor F·5 G·0
+17:02:12.848506 db@open done T·103.244898ms
+17:22:39.326921 db@close closing
+17:22:39.329304 db@close done T·2.379078ms
+=============== Jun 7, 2023 (IST) ===============
+15:52:06.198029 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:52:06.198823 version@stat F·[3] S·1MiB[1MiB] Sc·[0.75]
+15:52:06.198864 db@open opening
+15:52:06.198948 journal@recovery F·1
+15:52:06.398581 journal@recovery recovering @9
+15:52:06.400724 memdb@flush created L0@11 N·8 S·1KiB "Sna..tor,v33303":"unc..own,v33298"
+15:52:06.405095 version@stat F·[4] S·1MiB[1MiB] Sc·[1.00]
+15:52:06.415359 db@janitor F·6 G·0
+15:52:06.415426 db@open done T·216.525013ms
+15:52:06.415512 table@compaction L0·4 -> L1·0 S·1MiB Q·33306
+15:52:06.467288 table@build created L1@14 N·22411 S·1MiB "\x02d\xfc..\x19Ba,v175":"\xfe\x88\xcf..H\xef\xcc,v106"
+15:52:06.467387 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+15:52:06.468442 table@compaction committed F-3 S-445KiB Ke·0 D·10891 T·52.864379ms
+15:52:06.468947 table@remove removed @8
+15:52:06.469043 table@remove removed @5
+15:52:06.469123 table@remove removed @2
+15:54:04.119394 db@close closing
+15:54:04.119694 db@close done T·297.332µs
+=============== Jun 12, 2023 (IST) ===============
+23:31:01.437229 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:31:01.447398 version@stat F·[0 1] S·1MiB[0B 1MiB] Sc·[0.00 0.01]
+23:31:01.447502 db@open opening
+23:31:01.447666 journal@recovery F·1
+23:31:01.452761 journal@recovery recovering @12
+23:31:01.480593 memdb@flush created L0@15 N·1129 S·83KiB "\x06\xfag..\xfd\xfa2,v34420":"\xf6<\xce..\xfd(\x16,v34426"
+23:31:01.485229 version@stat F·[1 1] S·1MiB[83KiB 1MiB] Sc·[0.25 0.01]
+23:31:01.491064 db@janitor F·5 G·1
+23:31:01.491116 db@janitor removing table-11
+23:31:01.491256 db@open done T·43.716538ms
+=============== Jun 13, 2023 (IST) ===============
+00:31:04.402705 db@close closing
+00:31:04.403030 db@close done T·326.324µs

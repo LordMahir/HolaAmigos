@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "@influxdata/influxdb-client": "^1.33.1",
+    "@influxdata/influxdb-client-apis": "^1.33.1",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express-session": "^1.17.3",
+    "fetch": "^1.1.0",
+    "g": "^2.0.1",
+    "ipfs-core": "^0.18.1",
+    "ipfs-http-client": "^60.0.1",
+    "mongodb": "^4.13.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.4",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.8.1"
+  },
+  "scripts": {
+    "start": "nodemon dapp.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
